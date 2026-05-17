@@ -1,0 +1,3 @@
+export default function DashboardPage() {
+  return <div className="space-y-6"><h1 className="text-4xl font-bold">User Dashboard</h1><div className="grid md:grid-cols-3 gap-4"><div className="glass p-5"><p className="text-white/60">Credits Left</p><p className="text-3xl font-bold">182</p></div><div className="glass p-5"><p className="text-white/60">Renders This Month</p><p className="text-3xl font-bold">27</p></div><div className="glass p-5"><p className="text-white/60">Active Plan</p><p className="text-3xl font-bold">Pro</p></div></div><div className="glass p-6">Personalized quick actions, current jobs, and shortcuts to upload, export, and history.</div></div>;
+}
